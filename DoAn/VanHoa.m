@@ -96,10 +96,13 @@
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSIndexPath *indexPath;
+    indexPath = [self.collection indexPathForItemAtPoint:[self.collection convertPoint:[sender center] fromView:[sender superview]]];
+
     if ([segue.identifier isEqualToString:@"segueDoc"])
     {
         ActivityRead *ui=[segue destinationViewController];
-        ui.link=dsLink[index];
+        ui.link=dsLink[indexPath.row];
     }
 }
 

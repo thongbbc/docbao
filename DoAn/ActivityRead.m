@@ -27,6 +27,36 @@
     NSString *XpathQueryString = @"//div[@class='wrapper detail ']/section/section/div[@class='detail-content']/div[@class='left-side']/div[@class='fck ']/p";
     
     NSArray *Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+    if (Nodes.count==0)
+    {
+        XpathQueryString = @"//div[@class='wrapper detail']/section/section/div[@class='fck']/p";
+        
+        Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+
+    }
+    if (Nodes.count==0)
+    {
+        XpathQueryString = @"//div[@class='wrapper detail wrapper-vhgt']/section/section/div[@class='detail-content']/div[@class='left-side']/div[@class='fck ']/p";
+        
+        Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+        
+    }
+    if (Nodes.count==0)
+    {
+        XpathQueryString = @"//div[@class='wrapper']/section/div[@class='row']/div[@class='main col-md-8 col-sm-8']/div[@class='row']/section/article[@class='fck']/section/p";
+        
+        Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+        
+    }
+    if (Nodes.count==0)
+    {
+        XpathQueryString = @"//div[@class='wrapper detail wrapper-vhgt']/section/section/div[@class='detail-content']/div[@class='fck ']/p";
+        
+        Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+        
+    }
+
+
    // NSLog(@"%@",Nodes);
     for (TFHppleElement *element in Nodes)
     {

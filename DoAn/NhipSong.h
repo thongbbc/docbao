@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NhipSong : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@property (weak, nonatomic) IBOutlet UICollectionView *collection;
 
 
 

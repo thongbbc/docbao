@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface VanHoa : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@property (weak, nonatomic) IBOutlet UICollectionView *collection;
 
 
 

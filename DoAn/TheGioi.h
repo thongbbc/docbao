@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TheGioi : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@property (weak, nonatomic) IBOutlet UICollectionView *collection;
 
 
 @end

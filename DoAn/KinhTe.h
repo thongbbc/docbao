@@ -10,6 +10,7 @@
 
 @interface KinhTe : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collection;
 
 
 @end
