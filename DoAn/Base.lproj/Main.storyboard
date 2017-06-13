@@ -21,9 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oNO-O4-IgY">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oNO-O4-IgY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.23529411759999999" green="0.35294117650000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G17-Pt-KIW">
                                     <size key="itemSize" width="170" height="200"/>
@@ -79,6 +78,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oNO-O4-IgY" secondAttribute="bottom" id="A2V-Io-1s3"/>
+                            <constraint firstItem="oNO-O4-IgY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GPZ-OS-8Bx"/>
+                            <constraint firstItem="oNO-O4-IgY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TMA-rz-rm1"/>
+                            <constraint firstAttribute="trailing" secondItem="oNO-O4-IgY" secondAttribute="trailing" id="jXi-QE-227"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tin Mới" id="gUc-mW-IBy"/>
                     <navigationItem key="navigationItem" title="News" id="7vg-FE-dbU"/>
@@ -102,9 +107,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LhA-jd-I5O">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LhA-jd-I5O">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65815355330000003" green="0.65815355330000003" blue="0.65815355330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="miJ-Ba-Scf">
                                     <size key="itemSize" width="170" height="200"/>
@@ -160,6 +164,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y6M-Ml-5zK" firstAttribute="top" secondItem="LhA-jd-I5O" secondAttribute="bottom" id="1BJ-h7-dFe"/>
+                            <constraint firstItem="LhA-jd-I5O" firstAttribute="leading" secondItem="N5g-G4-zVm" secondAttribute="leading" id="EUs-mc-LAh"/>
+                            <constraint firstItem="LhA-jd-I5O" firstAttribute="top" secondItem="N5g-G4-zVm" secondAttribute="top" id="KkD-e9-V6h"/>
+                            <constraint firstAttribute="trailing" secondItem="LhA-jd-I5O" secondAttribute="trailing" id="gnU-eu-hTb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Thế Giới" id="GsM-sm-l4a"/>
                     <connections>
@@ -182,9 +192,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="iDS-vW-ycf">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="iDS-vW-ycf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65815355330000003" green="0.65815355330000003" blue="0.65815355330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uDY-GA-E1w">
                                     <size key="itemSize" width="170" height="200"/>
@@ -240,6 +249,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v1q-gs-zep" firstAttribute="top" secondItem="iDS-vW-ycf" secondAttribute="bottom" id="4sP-Mj-HyO"/>
+                            <constraint firstItem="iDS-vW-ycf" firstAttribute="leading" secondItem="qPB-dK-Lyj" secondAttribute="leading" id="KoN-8z-bJc"/>
+                            <constraint firstItem="iDS-vW-ycf" firstAttribute="top" secondItem="qPB-dK-Lyj" secondAttribute="top" id="arE-Wc-f9S"/>
+                            <constraint firstAttribute="trailing" secondItem="iDS-vW-ycf" secondAttribute="trailing" id="jTK-OU-DAu"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Kinh Tế" id="1DY-2Z-4X0"/>
                     <connections>
@@ -262,9 +277,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-Zu-kGQ">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-Zu-kGQ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65815355330000003" green="0.65815355330000003" blue="0.65815355330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mFf-uI-ays">
                                     <size key="itemSize" width="170" height="200"/>
@@ -320,6 +334,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TMA-x4-NxM" firstAttribute="top" secondItem="DqW-Zu-kGQ" secondAttribute="bottom" id="4Ff-5r-JGz"/>
+                            <constraint firstItem="DqW-Zu-kGQ" firstAttribute="leading" secondItem="v9m-bY-oUn" secondAttribute="leading" id="cRh-wV-AuJ"/>
+                            <constraint firstItem="DqW-Zu-kGQ" firstAttribute="top" secondItem="v9m-bY-oUn" secondAttribute="top" id="chr-kx-v5f"/>
+                            <constraint firstAttribute="trailing" secondItem="DqW-Zu-kGQ" secondAttribute="trailing" id="fjg-2Y-wKd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Giáo dục" id="9g0-CU-l6Y"/>
                     <connections>
@@ -342,9 +362,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b74-tV-L2F">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b74-tV-L2F">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65815355330000003" green="0.65815355330000003" blue="0.65815355330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4uv-gT-kST">
                                     <size key="itemSize" width="170" height="200"/>
@@ -400,6 +419,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="b74-tV-L2F" secondAttribute="trailing" id="6vw-nP-Pni"/>
+                            <constraint firstItem="b74-tV-L2F" firstAttribute="top" secondItem="Dyr-rC-dbd" secondAttribute="top" id="PLJ-s8-ha3"/>
+                            <constraint firstItem="iSC-1N-L2c" firstAttribute="top" secondItem="b74-tV-L2F" secondAttribute="bottom" id="Tse-vr-3th"/>
+                            <constraint firstItem="b74-tV-L2F" firstAttribute="leading" secondItem="Dyr-rC-dbd" secondAttribute="leading" id="cuG-ue-Qcw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Văn Hóa" id="His-9R-NTW"/>
                     <connections>
@@ -422,9 +447,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vwO-wP-Ktb">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vwO-wP-Ktb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65815355330000003" green="0.65815355330000003" blue="0.65815355330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uBP-8q-haF">
                                     <size key="itemSize" width="170" height="200"/>
@@ -480,6 +504,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vwO-wP-Ktb" secondAttribute="trailing" id="Vfl-hI-QNo"/>
+                            <constraint firstItem="Rj2-8W-0aR" firstAttribute="top" secondItem="vwO-wP-Ktb" secondAttribute="bottom" id="hIb-fK-CI3"/>
+                            <constraint firstItem="vwO-wP-Ktb" firstAttribute="leading" secondItem="8kU-df-Dcb" secondAttribute="leading" id="ra9-4z-FNH"/>
+                            <constraint firstItem="vwO-wP-Ktb" firstAttribute="top" secondItem="8kU-df-Dcb" secondAttribute="top" id="zGo-q0-gy8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Nhịp sống" id="AFR-v1-3Op"/>
                     <connections>
@@ -502,9 +532,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPr-Au-LWM">
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPr-Au-LWM">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -512,6 +541,12 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bPr-Au-LWM" secondAttribute="bottom" id="4oq-fL-rR0"/>
+                            <constraint firstItem="bPr-Au-LWM" firstAttribute="top" secondItem="Ulm-BP-fxd" secondAttribute="bottom" id="8I9-tt-b6x"/>
+                            <constraint firstAttribute="trailing" secondItem="bPr-Au-LWM" secondAttribute="trailing" id="eUr-iC-4Ok"/>
+                            <constraint firstItem="bPr-Au-LWM" firstAttribute="leading" secondItem="KlJ-UA-p1E" secondAttribute="leading" id="tGh-8g-kWZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Đọc" id="DUM-kR-IhQ"/>
                     <connections>
